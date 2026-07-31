@@ -75,7 +75,7 @@ img {
 
 .hero__tagline {
   position: absolute;
-  top: 47.2%;
+  top: 46.6%;
   left: 62%;
   width: 45%;
   height: auto;
@@ -114,7 +114,7 @@ img {
   background: var(--sacco-yellow);
   transform: scaleX(0);
   transform-origin: left center;
-  animation: rule-in 1.25s cubic-bezier(0.22, 1, 0.36, 1) 2.9s forwards;
+  animation: rule-in 2.1s cubic-bezier(0.22, 1, 0.36, 1) 2.9s forwards;
 }
 
 .site-footer {

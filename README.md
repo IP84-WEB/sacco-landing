@@ -22,3 +22,10 @@ consistently in every browser without depending on an installed web font.
 
 Upload all files and the `assets` folder to the repository root, replacing
 the previous versions.
+
+
+## v5 refinements
+
+- Added extra lower padding to the payoff SVG so the descender of the “g” is not clipped.
+- Slowed down the yellow line animation.
+- Raised the payoff slightly inside the photograph.
