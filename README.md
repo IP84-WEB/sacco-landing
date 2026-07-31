@@ -2,30 +2,26 @@
 
 Static one-page website for SACCO.
 
-## Typography
+## v6 changes
 
-The payoff uses the exact typeface from the Affinity mockup:
-**ITC Garamond Std Light Narrow**.
+- The payoff is embedded directly inside `index.html` as vector SVG paths.
+  It no longer depends on a separate payoff file, so the broken-image issue
+  cannot recur if an asset is omitted during upload.
+- All entrance animations are slower.
+- The yellow line now draws more slowly from left to right.
+- Added keyboard focus states, a skip link, semantic text for the vector payoff,
+  reduced-motion support and an Accessibility link.
+- Added `accessibility.html` with an accessibility statement.
 
-The lettering has been converted into SVG vector outlines, so it renders
-consistently in every browser without depending on an installed web font.
+## Upload
 
-## Animation sequence
+Replace the repository files with:
 
-1. SACCO logo fades in.
-2. The larger photograph and vector payoff fade in.
-3. `@sacco.us` fades in last inside the photograph.
-4. The yellow line draws from left to right.
-5. `© SACCO 2026` fades in below the line, aligned left.
+- `index.html`
+- `accessibility.html`
+- `style.css`
+- `README.md`
+- `assets/`
 
-## Publish with GitHub Pages
-
-Upload all files and the `assets` folder to the repository root, replacing
-the previous versions.
-
-
-## v5 refinements
-
-- Added extra lower padding to the payoff SVG so the descender of the “g” is not clipped.
-- Slowed down the yellow line animation.
-- Raised the payoff slightly inside the photograph.
+The file `assets/sacco-payoff.svg` may remain in the repository, but the home
+page no longer depends on it.
