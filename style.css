@@ -87,7 +87,7 @@ a:focus-visible {
   margin: 0 0 clamp(20px, 3vh, 28px);
   line-height: 0;
   opacity: 0;
-  animation: fade-in 1.8s ease-out 0.2s forwards;
+  animation: fade-in 1.8s ease-out 0.25s forwards;
 }
 
 .brand img {
@@ -102,8 +102,9 @@ a:focus-visible {
   overflow: hidden;
   aspect-ratio: 576 / 590;
   background: #160b06;
-  opacity: 0;
-  animation: fade-in 2.4s ease-out 1s forwards;
+  opacity: 2;
+  animation: none;
+  transform: none;
 }
 
 .hero__photo {
@@ -115,13 +116,16 @@ a:focus-visible {
 
 .hero__tagline {
   position: absolute;
-  top: 50%;
+  top: 52%;
   left: 62%;
   width: 45%;
   height: auto;
   transform: translate(-50%, -50%);
   object-fit: contain;
   pointer-events: none;
+
+  opacity: 0;
+  animation: fade-in 1.8s ease-out 1.35s forwards;
 }
 
 .hero__instagram {
@@ -160,7 +164,7 @@ a:focus-visible {
   margin-top: 10px;
   color: var(--sacco-yellow);
   opacity: 0;
-  animation: fade-in 2.4s ease-out 1s forwards;
+  animation: fade-in 1.8s ease-out 1.35s forwards;
 }
 
 .site-footer p {
