@@ -115,7 +115,7 @@ a:focus-visible {
 
 .hero__tagline {
   position: absolute;
-  top: 52%;
+  top: 50%;
   left: 62%;
   width: 45%;
   height: auto;
