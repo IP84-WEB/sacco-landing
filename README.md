@@ -1,27 +1,21 @@
-# SACCO landing page
+# SACCO landing page — v9
 
-Static one-page website for SACCO.
+## Accessibility interface
 
-## v6 changes
+The yellow wheelchair icon now opens a full-height accessibility interface
+inspired by the structure shown in the reference screenshot, but designed
+entirely in the SACCO brown/yellow/cream palette.
 
-- The payoff is embedded directly inside `index.html` as vector SVG paths.
-  It no longer depends on a separate payoff file, so the broken-image issue
-  cannot recur if an asset is omitted during upload.
-- All entrance animations are slower.
-- The yellow line now draws more slowly from left to right.
-- Added keyboard focus states, a skip link, semantic text for the vector payoff,
-  reduced-motion support and an Accessibility link.
-- Added `accessibility.html` with an accessibility statement.
+It includes:
 
-## Upload
+- profile switches for seizure safety, low vision, ADHD, cognitive support,
+  keyboard navigation, screen-reader support and older adults;
+- content scaling controls;
+- readable font;
+- high contrast, grayscale, highlighted links, paused animations,
+  increased line spacing and a larger cursor;
+- reset, statement and hide-interface controls;
+- locally saved preferences;
+- keyboard focus trapping and screen-reader announcements.
 
-Replace the repository files with:
-
-- `index.html`
-- `accessibility.html`
-- `style.css`
-- `README.md`
-- `assets/`
-
-The file `assets/sacco-payoff.svg` may remain in the repository, but the home
-page no longer depends on it.
+The photograph remains completely static and appears only through opacity.
