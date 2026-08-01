@@ -125,7 +125,7 @@ a:focus-visible {
   pointer-events: none;
 
   opacity: 0;
-  animation: fade-in 4s ease-out 2s forwards;
+  animation: fade-in 5s ease-out 2.5s forwards;
 }
 
 .hero__instagram {
@@ -164,7 +164,7 @@ a:focus-visible {
   margin-top: 10px;
   color: var(--sacco-yellow);
   opacity: 0;
-  animation: fade-in 4s ease-out 3s forwards;
+  animation: fade-in 5s ease-out 3s forwards;
 }
 
 .site-footer p {
