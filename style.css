@@ -164,7 +164,7 @@ a:focus-visible {
   margin-top: 10px;
   color: var(--sacco-yellow);
   opacity: 0;
-  animation: fade-in 1.8s ease-out 1.35s forwards;
+  animation: fade-in 2s ease-out 2s forwards;
 }
 
 .site-footer p {
