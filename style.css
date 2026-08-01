@@ -87,7 +87,7 @@ a:focus-visible {
   margin: 0 0 clamp(20px, 3vh, 28px);
   line-height: 0;
   opacity: 0;
-  animation: fade-in 2s ease-out 1s forwards;
+  animation: fade-in 2s ease-out 1.5s forwards;
 }
 
 .brand img {
@@ -125,7 +125,7 @@ a:focus-visible {
   pointer-events: none;
 
   opacity: 0;
-  animation: fade-in 2s ease-out 0.5s forwards;
+  animation: fade-in 2s ease-out 2s forwards;
 }
 
 .hero__instagram {
