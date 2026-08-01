@@ -103,7 +103,7 @@ a:focus-visible {
   aspect-ratio: 576 / 590;
   background: #160b06;
   opacity: 0;
-  animation: fade-in 2.4s ease-out 2s forwards;
+  animation: fade-in 2.4s ease-out 1s forwards;
 }
 
 .hero__photo {
@@ -160,7 +160,7 @@ a:focus-visible {
   margin-top: 10px;
   color: var(--sacco-yellow);
   opacity: 0;
-  animation: fade-in 2.4s ease-out 2s forwards;
+  animation: fade-in 2.4s ease-out 1s forwards;
 }
 
 .site-footer p {
